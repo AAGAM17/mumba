@@ -118,7 +118,6 @@ export default function ChatInterface() {
         topP: 0.95,
         topK: 64,
         maxOutputTokens: 8192,
-        responseMimeType: "text/markdown",
       };
 
       const chatSession = model.startChat({
